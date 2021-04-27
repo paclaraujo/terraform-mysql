@@ -46,9 +46,9 @@ Para acessar a máquina virtual através do terminal execute o comando:
 ssh adminadmin@<tf-mysql-public-ip>
 ```
 
-Obs: Para localizar o Public IP criado por essa máquina virtual acesse o seu portal azure > resource groups > terraform-mysql > tf-mysql-public-ip > IP Address.
+**Obs**: Para localizar o Public IP criado por essa máquina virtual acesse o seu portal `azure > resource groups > terraform-mysql > tf-mysql-public-ip >` IP Address.
 
-Obs2:A senha que será soliciatada é a senha configurada no `azurerm_linux_virtual_machine` no campo `admin_password`.
+**Obs2**:A senha que será soliciatada é a senha configurada no `azurerm_linux_virtual_machine` no campo `admin_password`.
 
 ## Acessado a o mysql pela vm
 
