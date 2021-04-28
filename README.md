@@ -48,14 +48,14 @@ ssh adminadmin@<tf-mysql-public-ip>
 
 **Obs**: Para localizar o Public IP criado por essa máquina virtual acesse o seu portal `azure > resource groups > terraform-mysql > tf-mysql-public-ip >` IP Address.
 
-**Obs2**:A senha que será soliciatada é a senha configurada no `azurerm_linux_virtual_machine` no campo `admin_password`.
+**Obs2**:A senha que será solicitada é a senha configurada no arquivo `terraform.tfvars`.
 
 ## Acessado a o mysql pela vm
 
 Após rodar o comando anterior execute:
 
 ```sh
-mysql -u root -p
+mysql -u root -proot
 ```
 
 ## Tecnologias usadas
